@@ -328,7 +328,3 @@ docker-compose ps
 ```bash
 docker ps
 ```
-
-## 📄 License
-
-This project is for demonstration purposes.
