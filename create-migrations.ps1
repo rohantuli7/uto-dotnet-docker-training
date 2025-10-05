@@ -1,0 +1,1 @@
+docker run --rm -v "${PWD}\Backend:/src" -w /src mcr.microsoft.com/dotnet/sdk:8.0 sh -c "dotnet tool install --global dotnet-ef && export PATH=`"`$PATH:/root/.dotnet/tools`" && dotnet ef migrations add InitialCreate"
